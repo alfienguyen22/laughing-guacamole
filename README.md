@@ -1,2 +1,2 @@
 # laughing-guacamole
-A repository for my Python solutions to Kattis
+A repository for my Python solutions to Kattis problems.
