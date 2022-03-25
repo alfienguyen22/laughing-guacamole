@@ -1,9 +1,5 @@
-import sys
-
-n, m, t = input().split()
-n, m, t = [int(n), int(m), int(t)]
+n, m, t = [int(x) for x in input().split()]
 
 total = n*m*t
 
 print(total)
-sys.exit()
