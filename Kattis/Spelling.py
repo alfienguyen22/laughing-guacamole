@@ -1,3 +1,4 @@
+# dictionary for this specific problem
 phonedict = {
     "a": 2,
     "b": 22,
@@ -28,6 +29,7 @@ phonedict = {
     " ": 0,
 }
 
+# taking in multiple x inputs
 n = int(input())
 
 List = []
@@ -37,8 +39,9 @@ for i in range(n):
     elem = input()
 
     List.append(elem)
+    print(elem)
 
-
+# print out the dictionary
+# how should I get the program to read the input and return a number? Thank you!
 for key, value in phonedict.items():
-    print(key, ' : ', value)
-
+    print(key, ':', value)
