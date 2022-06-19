@@ -11,9 +11,9 @@ length = len(freq)
 for i in range(0, length - 1):
     count = 1
     for j in range(i + 1, length):
-        if (freq[i] == freq[j]):
+        if freq[i] == freq[j]:
             count += 1
-            if (max < count):
+            if max < count:
                 max = count
 
-print (max)
+print(max)
